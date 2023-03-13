@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 30px 20px 10px;
+    font-size: 21px;
+    vertical-align: top;
+}
+
+.menu li a {
+    color: white;
+}
+
+.mv {
+    display: none;
+    text-align: right;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.social-media i {
+    margin-top: -8px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.magnet {
+    width: 86%;
+    margin-left: 7%;
+}
+
+.image {
+    display: block;
+    float: left;
+    margin: 20px 30px;
+    width: 38%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 600px;
+    display: inline-block;
+    border-radius: 48%;
+} 
+
+.title {
+    display: block;
+    padding-left: 10px;
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    font-style: italic;
+    height: 700px;
+}
+
+.title h1 {
+    padding-top: 270px;
+}
+
+.benefits {
+    padding: 100px 7% 50px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.container {
+    padding-top: 50px;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.flex-item {
+    display: inline-flex;
+    padding: 10px 15px;
+}
+
+
+.container .flex-item p {
+    padding: 10px;
+}
+
+.our-services {
+    padding: 100px 7%;
+}
+
+.our-services h1 {
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.service {
+    padding: 60px;
+}
+
+.around, .around-o {
+    float: left;
+    width: 45%;
+}
+
+.d-text, .d-text-o {
+    float: right;
+    padding: 40px 30px;
+    width: 41%;
+}
+
+.around-o {
+    float: right;
+}
+
+.d-text-o {
+    float: left;
+}
+
+.d-text h2, .d-text-o h2 {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.d-text p, .d-text-o p {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.square {
+    position: absolute;
+    width: 450px;
+    height: 370px;
+    background-color: white;
+    z-index: 1;
+}
+
+.pic {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    width: 450px; 
+    height: 370px;
+    z-index: 10;
+    border: 6px rgb(36, 34, 34) solid;
+    overflow: hidden;
+}
+
+.around-o .pic {
+    right: 0;
+    left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.reviews {
+    padding: 80px 7% 70px;
+}
+
+.reviews h1 {
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.flex {
+    display: inline-flex;
+    width: 25%;
+    padding: 0 1%;
+}
+
+.card {
+    padding: 80px 18px 65px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: black;
+}
+
+.card p, .card p i {
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.gallery {
+    padding: 70px 3% 50px;
+}
+
+.gallery h1 {
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.gallery img {
+    width: 22%;
+    margin: 0.5% 1%;
+    height: 200px;
+}
+
+.prices {
+    width: 100%;
+    padding: 80px 0 50px;
+}
+
+.prices h1 {
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.priced {
+    width: 90%;
+    display: inline-flex;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.price {
+    width: 30%;
+    border: 1px white solid;
+    margin: 1%;
+}
+
+.price h2, .price h3 {
+    padding: 40px;
+    border: rgb(27, 27, 27) 1px solid;
+}
+.contacts-form {
+    padding: 70px 0;
+    width: 76%;
+    margin-left: 12%;
+}
+
+.contacts-form h1 {
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+form {
+    padding: 25px;
+    border: 1px solid rgb(35, 34, 34);
+    margin-bottom: 30px;
+}
+
+form button {
+    padding: 5px 30px;
+    border: 2px solid bisque;
+    border-radius: 1px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(26, 25, 25);
+}
+
+.part {
+    display: block;
+    margin: 25px 0;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.part input {
+    margin-top: 4px;
+    width: 97%;
+    text-align: left;
+    font-size: 17px;
+}
+
+.part textarea {
+    margin-top: 4px;
+    width: 97%;
+    line-height: 30px;
+    text-align: left;
+    resize: vertical;
+    font-size: 17px;
+}
+
+.maps {
+    width: 65%;
+    padding: 0 30px;
+    float: left;
+}
+
+.contact-info {
+    padding: 40px 30px;
+    float: right;
+}
+
+.contact-info h4 {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.adress {
+    padding: 40px 30px;
+    border: 1px solid rgb(35, 34, 34);
+    margin-bottom: 40px;
+}
+
+.adress h4 {
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.paticka {
+    clear: both;
+    padding: 20px 0;
+}
+
+.paticka p small {
+    line-height: 1.6rem;
+    margin-bottom: 8px;
+    color: white;
+}
+
+@media(max-width: 825px) {
+    
+    .menu {
+        display: none;
+    }
+
+    .mv {
+        display: block;
+        width: 90%;
+        padding: 10px 30px;
+    }
+    
+    .social-media i {
+        margin-top: unset;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .image {
+        float: none;
+        width: 90%;
+        overflow: hidden;
+    }
+    
+    .image img {
+        width: 90%;
+        border-radius: 50%;
+    } 
+    
+    .title {
+        height: 90%;
+    }
+    
+    .title h1 {
+        padding-top: 40px;
+        font-size: 1.4rem;
+    }
+    
+    .benefits {
+        padding: 40px 7% 40px;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    blockquote p {
+        font-size: 1.1rem;
+    }
+    
+    .container {
+        padding-top: 40px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .our-services {
+        padding: 40px 7%;
+    }
+    
+    .our-services h1 {
+        font-size: 1.4rem;
+    }
+    
+    .service {
+        padding: 20px;
+    }
+    
+    .around, .around-o {
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .d-text, .d-text-o {
+        float: none;
+        padding: 10px;
+        width: 90%;
+        margin-left: 5%;
+        padding-left: 5px;
+    }
+    
+    .around-o {
+        float: none;
+    }
+    
+    .d-text-o {
+        float: none;
+    }
+    
+    .d-text h2, .d-text-o h2 {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+    
+    .d-text p, .d-text-o p {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    
+    .square { /*pozadie za obrázkom */
+        display: none
+    }
+    
+    .pic { /*obrázok*/
+        position: static;
+        width: 90%;
+        height: auto;
+        border-bottom: 15px solid white;
+        border-right: 15px solid white;
+        z-index: 10;
+    }
+
+    .around-o .pic {
+        border-right: none;
+        border-left: 15px solid white;
+    }
+    
+    .around-o .pic {
+        right: 0;
+        left: 20px;
+    }
+    
+    .reviews {
+        padding: 40px 7%;
+    }
+    
+    .reviews h1 {
+        font-size: 1.4rem;
+    }
+    
+    .flex {
+        display: block;
+        width: 80%;
+        padding: 0 1%;
+        margin: 20px 0;
+        margin-left: 10%;
+    }
+   
+    .card p, .card p i {
+        background-color: white;
+        color: black;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+    
+    .gallery {
+        padding: 40px 2%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .gallery h1 {
+        font-size: 1.4rem;
+    }
+    
+    .gallery img {
+        height: 250px;
+        width: 250px;
+        margin: 10px 0;
+    }
+    
+    .prices {
+        margin: none;
+        width: 100%;
+        padding: 40px;
+    }
+    
+    .prices h1 {
+        font-size: 1.4rem;
+    }
+    
+    .priced {
+        width: 90%;
+        margin-left: 5%;
+        display: block;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
+    
+    .price {
+        width: 90%;
+        margin: 10px 1%;
+    }
+    
+    .price h2, .price h3 {
+        padding: 30px;
+    }
+
+    .contacts-form {
+        padding: 40px 0;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .contacts-form h1 {
+        font-size: 1.2rem;
+    }
+    
+    form {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+    
+    form button {
+        padding: 5px 25px;
+        font-size: 0.8rem;
+    }
+    
+    .part {
+        font-size: 0.9rem;
+    }
+    
+    .part input {
+        font-size: 0.9rem;
+    }
+    
+    .part textarea {
+        line-height: 1.1rem;
+        font-size: 0.9rem;
+    }
+    
+    .maps {
+        height: 384px;
+        width: 90%;
+        margin-left: 1%;
+        margin-right: 5%;
+        float: none;
+    }
+    
+    .contact-info {
+        padding: 40px 30px;
+        float: none;
+    }
+    
+    .contact-info h4 {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    
+    .adress {
+        padding: 40px 30px;
+        margin-bottom: 30px;
+    }
+    
+    .adress h4 {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+
+}
